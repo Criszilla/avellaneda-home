@@ -1,0 +1,18 @@
+$breackpoints: (
+    S: 480px,
+    M: 768px,
+    L: 1024px,
+    XL: 1400px
+);
+
+@mixin MQ($breackpoint){
+    @if map-has-key($breackpoints, $breackpoint){
+        @media screen and (min-width: map-get($breackpoints, $breackpoint)) {
+            @content;
+        }
+    }@else{
+        @media screen and (min-width: $breackpoint) {
+            @content;
+        }
+    }
+}

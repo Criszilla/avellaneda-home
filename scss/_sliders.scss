@@ -1,0 +1,90 @@
+
+.owl-theme{
+    .owl-nav{
+        position:absolute;
+        z-index:1;
+        width:100%;
+        bottom:50%;
+        overflow:hidden;        
+
+        .owl-prev, .owl-next{            
+            max-width: 50px;
+            background: rgba(255, 255, 255, .4)!important;            
+            font-size:40px !important;
+
+            -webkit-transition: .2s ease-in-out all;
+            -o-transition: .2s ease-in-out all;
+            transition: .2s ease-in-out all;
+        }
+
+        .owl-prev{
+            float:left;
+            border-radius: 15px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            margin-left:0px;
+
+            i{margin:20px 20px 20px 7px;}
+        }
+
+        .owl-next{
+            float:right;
+            border-radius: 15px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            margin-right:0px;
+
+            i{margin:20px 7px 20px 20px;}
+        }
+    }
+
+    .owl-dots{
+        margin-top:20px;
+    }
+}   
+
+.slider-caption{
+    background:$color-gris-oscuro;
+    color: $color-blanco;
+
+    .slider-caption-logo{
+        position:absolute;
+        margin-top:-50px;
+    }
+
+    .slider-caprion-ubicacion{
+        span{
+            font-size:16px;
+            @include MQ(M){
+                font-size:13px;
+            }
+        }
+        h2{
+            font-size:21px;
+        }
+
+        h3{
+            font-size:16px;
+            @include MQ(M){
+                font-size:21px;
+            }
+        }
+    }
+
+    .slider-caption-bloque_rojo{
+        background:$color-rojo;
+        border-radius: 15px;
+        font-size:12px;
+        padding:10px 0px 10px 0px;
+        text-align: center;
+
+        p{margin:0;}
+
+        @include MQ(M){
+            border-radius: 15px;
+            font-size:12px;
+            padding:20px;
+            text-align: right;
+        }
+    }
+}

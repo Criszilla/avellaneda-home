@@ -1,0 +1,60 @@
+
+html{scroll-behavior: smooth;}
+
+body{    
+    font-family: $font-montserrat;
+    font-weight: 400;
+    color: $color-negro;
+    -webkit-transition: 1s all ease-in-out;
+    -o-transition: 1s all ease-in-out;
+    transition: 1s all ease-in-out;
+}
+
+a{
+    font-size:12px;
+    color:$color-gris-oscuro;
+    font-weight: 400;
+    text-decoration: none;
+
+    -webkit-transition: .2s ease-in-out all;
+    -o-transition: .2s ease-in-out all;
+    transition: .2s ease-in-out all;
+
+    &:hover{
+        color:$color-rojo;
+        text-decoration: none;
+    }
+}
+
+/*-----Titulos H-----*/
+
+h1.titulo-page{
+    font-size: 16px;
+    color:$color-blanco;
+
+    @include MQ(M){
+        font-size: 25px;
+    }
+}
+
+h2.titulos-secciones{
+    font-size: 21px;
+}
+
+h4.bajadas-titulos-secciones{
+    font-size: 14px;
+}
+
+/*-----Colores de fondo-----*/
+
+.bg-rojo{background:$color-rojo;}
+.bg-gris-oscuro{background:$color-gris-oscuro;}
+
+
+/*-----Efectos-----*/
+.bg-blur{
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+    min-height: 360px;
+    position: absolute;
+}

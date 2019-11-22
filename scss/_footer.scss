@@ -1,0 +1,92 @@
+/*
+-----------------------------------
+---------------FOOTER--------------
+-----------------------------------
+*/
+
+
+/*FOOTER SECTION - Links de los landings al final*/
+
+.landings-section{
+    padding: 30px 0;
+    -webkit-box-shadow: 0 7px 39px 0 rgba(0,0,0,.43);
+    -moz-box-shadow: 0 7px 39px 0 rgba(0,0,0,.43);
+    box-shadow: 0 7px 39px 0 rgba(0,0,0,.43);
+
+    .landing-block{
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+
+        h3{
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 700;
+        }
+    }
+}
+
+/*Pie*/
+.pie{
+    background: #ececec;
+    text-align: center;
+    padding: 5px;
+    font-size: 11px;
+}
+
+/*FOOTER EN RESPONSIVE*/
+
+.hide-shared-footer{bottom:-250px;}
+
+.shared-collapse-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align:center;
+    padding:20px 20px 100px 20px;
+    background:rgba(256,256,256,.8);
+    border-top: 10px solid #ccc;
+
+    -webkit-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+
+    a{
+        font-size:40px;
+
+        &.shared-btn-twit{color:#00aced;}
+        &.shared-btn-twit{color:#00aced;}
+        &.shared-btn-email{color:$color-rojo;}
+        &.shared-btn-whatsapp{color:#0ade68;}
+    }
+}
+
+.direccion-footer-mobile{
+    font-size:12px;
+    color: #6f7071;
+}
+
+.links-ubicacion{
+    margin-bottom:20px;
+    img{
+        width:100%;
+        max-width:50px;
+    }
+}
+
+.fixed-footer{
+    position:fixed;
+    bottom:20px;
+    z-index:3;
+}
+
+a.shared-btn-footer{
+    background:#e24d2d;
+    color:#fff !important;
+    padding:10px 14px;
+}
+
+a.up-btn-footer{
+    background:#d5d5d5;
+    color:#fff !important;
+    padding:10px 14px;
+}
