@@ -1,0 +1,19 @@
+.nav-tabs{
+    border-bottom:6px solid $color-rojo;    
+
+    .active{
+        background:$color-rojo !important;
+        color:$color-blanco !important;
+        border-color: transparent !important;
+        border-top-left-radius: 1rem !important;
+        border-top-right-radius: 1rem !important;
+    }
+
+    .nav-item:hover{
+        border: 1px solid transparent;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        background:$color-gris-claro;
+        color:$color-gris-oscuro;
+    }
+}

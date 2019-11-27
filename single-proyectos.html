@@ -1,0 +1,943 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS 4.3.1 -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+        <!-- Owl Carousel 2.3.4 -->
+        <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+
+        <!-- Fontawesome 5.11.2 -->
+        <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+        <!-- Estilos -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Avellaneda</title>
+    </head>
+
+    <body id="inicio">
+        <!--Preloader-->
+        <div class="cd-loader">
+            <div class="cd-loader__grid">
+                <div class="cd-loader__item"></div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------------------------------------------------
+        --------------------------------------------HEADER-------------------------------------------------------
+        ---------------------------------------------------------------------------------------------------------
+        -->
+        
+        <div class="side-compartir d-none d-md-block">
+            <li>
+                <a class="side-compartir-twit" href="https://twitter.com/share?url=https://www.avellaneda.cl/proyectos/condominio-plaza-buin/" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            
+            <li>
+                <a class="side-compartir-face" href="http://www.facebook.com/sharer.php?u=https://www.avellaneda.cl/proyectos/condominio-plaza-buin/" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>            
+            </li>
+            
+            <li>
+                <a class="side-compartir-email" href="mailto:?Subject=Condominio Plaza Buin&amp;Body=https://www.avellaneda.cl/proyectos/condominio-plaza-buin/">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+        </div>
+
+        <!-------------------------------------------------------------------------------------------------------
+        --------------------------------------------HEADER-------------------------------------------------------
+        ---------------------------------------------------------------------------------------------------------
+        -->
+
+        <header>
+            <!--------------------------------------Menú Buscar Top----------------------------------------------->
+            <div id="collapseBuscar" class="accordion d-none d-md-block">
+                <div class="container-fluid pt-2 pb-2 border-bottom">
+                    <div class="container">
+                        <div class="d-flex justify-content-between">
+                            <div class="contacto-top">
+                                <a href="https//www.avellaneda.cl/contacto"><i class="far fa-envelope"></i> CONTACTO</a>
+                                <a class="pl-2" href="https//www.avellaneda.cl/empresa">INMOBILIARIA AVELLANEDA</a>
+                            </div>
+                            <div class="buscar-top">
+                                <a href="#" data-toggle="collapse" data-target="#contenido_collapseBuscar" aria-expanded="false" aria-controls="collapseOne">
+                                    <i class="fas fa-angle-down"></i> BUSCAR
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="contenido_collapseBuscar" class="collapse" aria-labelledby="headingOne" data-parent="#collapseBuscar">
+                    <div class="bg-dark text-white text-center pt-3 pb-3">
+                        <div id="preguntas-buscar1" class="show-preguntas">
+                            <h4>¿DÓNDE QUIERES VIVIR?</h4>
+                            <button id="btn-buscar-stgo" class="btn btn-av-rojo rounded-pill">Santiago</button>
+                            <button id="btn-buscar-reg" class="btn btn-av-rojo rounded-pill">Regiones</button>
+                        </div>
+                        <div id="preguntas-buscar2-stgo" class="hide-preguntas">
+                            <h4>SELECCIONA SECTOR</h4>
+                            <div id="sector-stgo" class="container"></div>
+                            <button id="btn-buscar-volver-stgo" class="btn btn-av-rojo rounded-pill"><i class="fas fa-chevron-left"></i> Volver</button>
+                        </div>
+                        <div id="preguntas-buscar2-reg" class="hide-preguntas">
+                            <h4>SELECCIONA SECTOR</h4>
+                            <div id="sector-reg"></div>
+                            <button id="btn-buscar-volver-reg" class="btn btn-av-rojo rounded-pill"><i class="fas fa-chevron-left"></i> Volver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------------------Fin Menú Buscar Top----------------------------------------------->
+            
+            <!-------------------------------------------Main Menu---------------------------------------------------->
+            <nav id="main-menu" class="navbar-expand-lg main-header w-100">
+                <div class="container d-flex justify-content-between d-flex align-items-end">
+                    <div class="logo">
+                        <a class="navbar-brand" href="#">
+                            <img src="https://www.avellaneda.cl/wp-content/themes/avellaneda/recursos/img/iconos/logo.svg" alt="PROYECTOS INMOBILIARIOS EN SANTIAGO Y REGIONES" />
+                        </a>
+                    </div>
+                    
+                    <ul class="navbar-nav d-none d-md-inline-flex">
+                        <li class="nav-item nav-item-parent droppable">
+                            <a class="nav-link nav-link-parent dropdown-toggle" href="#">PROYECTOS REGIÓN METROPOLITANA</a>
+                            <!-- mega-menu 1 -->
+                            <div class="mega-menu">
+                                <div class="container proyectos_rm">
+                                    <div class="row">
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/condominio-plaza-buin/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2017/12/Condominio-Plaza-Buin-165x76.jpg)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Buin</h5>
+                                                        <h4 class="card-text">Condominio Plaza Buin</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:#e5302d;">Nueva Etapa </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/condominio-laguna-norte/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2017/12/Condominio-Laguna-Norte-2-165x76.jpg)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Valle Grande - Lampa</h5>
+                                                        <h4 class="card-text">Condominio Laguna Norte</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:#e5302d;"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/casas-del-rahue/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2018/10/menu-165x76.png)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Valle Grande - Lampa</h5>
+                                                        <h4 class="card-text">Condominio Casas del Rahue</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:green;">VENTA EN VERDE</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/condominio-los-nogales-de-santa-elena/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2017/12/Condominio-Los-Nogales-de-Santa-Elena-165x76.jpg)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Chicureo Norte</h5>
+                                                        <h4 class="card-text">Valle Nogales</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:#e5302d;"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/vista-portezuelo/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2017/12/Vista-Portezuelo-1-165x76.jpg)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Vitacura</h5>
+                                                        <h4 class="card-text">Vista Portezuelo</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:#e5302d;"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/edificio-mirror/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2018/01/Fachada-Mirror-165x76.jpg)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Las Condes</h5>
+                                                        <h4 class="card-text">Edificio Mirror</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:green;">VENTA EN VERDE</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/edificio-arcadia/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2017/12/Arcadia-menu-165x76.jpg)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Estación Central</h5>
+                                                        <h4 class="card-text">Edificio Arcadia</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:#e5302d;">Últimas Unidades</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/casas-barrio-alto/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2018/01/Casas-Barrio-Alto-165x76.jpg)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Pudahuel</h5>
+                                                        <h4 class="card-text">Casas Barrio Alto</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:#e5302d;"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .mega-menu 1 -->
+                        </li>
+
+                        <li class="nav-item nav-item-parent droppable">
+                            <a class="nav-link nav-link-parent dropdown-toggle" href="#">PROYECTOS REGIONES</a>
+                            
+                            <!-- mega-menu 2 -->
+                            <div class="mega-menu">
+                                <div class="container proyectos_re">
+                                    <div class="row">
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/parque-mirador-ii/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2017/12/Sin-título-3-1-165x76.png)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Viña del Mar</h5>
+                                                        <h4 class="card-text">Parque Mirador Etapas II y III</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:#e5302d;"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/condominio-plaza-schwerter/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2017/12/700x322-1-165x76.jpg)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Puerto Varas</h5>
+                                                        <h4 class="card-text">Condominio Plaza Schwerter</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:#e5302d;">Nueva Etapa </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="col-auto mb-3">
+                                            <a href="https://www.avellaneda.cl/proyectos/casas-puerta-sur/">
+                                                <div class="card">
+                                                    <div class="card-img-top" style="background-image:url(https://www.avellaneda.cl/wp-content/uploads/2018/01/Puerta-Sur-1-1-165x76.jpg)"></div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Puerto Montt</h5>
+                                                        <h4 class="card-text">Casas Puerta Sur</h4>
+                                                    </div>
+                                                    <div class="estado-proyecto" style="background:#e5302d;">Nueva Etapa en Venta</div>
+                                                </div>
+                                            </a>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                            </div><!-- .mega-menu 2 -->
+                        </li>
+
+                        <li class="nav-item nav-item-parent">
+                            <a class="nav-link nav-link-parent" href="/oportunidades/">OPORTUNIDADES</a>
+                        </li>
+
+                        <li class="nav-item nav-item-parent dropdown">
+                            <a class="nav-link nav-link-parent dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICIO AL CLIENTE</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/servicio-al-cliente/proceso-de-compra/"><i class="fas fa-list-ol"></i> PROCESO DE<br>COMPRA</a>
+                                <a class="dropdown-item" href="/servicio-al-cliente/servicio-post-venta/"><i class="fab fa-wpforms"></i> SERVICIO POST<br>VENTA</a>
+                                <a class="dropdown-item" href="http://avellaneda.agendapro.co/cl"><i class="far fa-calendar-check"></i> RESERVA DE HORA<br>PRE-ENTREGA Y<br>ENTREGA</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="d-md-none">
+                        <a data-toggle="collapse" data-target="#buscar-mobile" aria-expanded="false">
+                            <i class="fas fa-search" style="font-size:30px; margin-right:10px;"></i>
+                        </a>
+                        <a id="btn_show"><i class="fas fa-bars" style="font-size:30px;"></i></a>
+                    </ul>                    
+                </div>
+
+                <div id="buscar-mobile" class="collapse bg-dark d-md-none color-white text-center pt-3 pb-3">
+                    <div id="preguntas-buscar1" class="show-preguntas">
+                        <h4>¿DÓNDE QUIERES VIVIR?</h4>
+                        <button id="btn-buscar-stgo" class="btn btn-lg btn-opciones btn-rojo">Santiago</button>
+                        <button id="btn-buscar-reg" class="btn btn-lg btn-opciones btn-rojo">Regiones</button>
+                    </div>
+                    <div id="preguntas-buscar2-stgo" class="hide-preguntas">
+                        <h4>SELECCIONA SECTOR</h4>
+                        <div id="sector-stgo" class="container"></div>
+                        <button id="btn-buscar-volver-stgo" class="btn btn-lg btn-opciones btn-rojo">Volver</button>
+                    </div>
+                    <div id="preguntas-buscar2-reg" class="hide-preguntas">
+                        <h4>SELECCIONA SECTOR</h4>
+                        <div id="sector-reg"></div>
+                        <button id="btn-buscar-volver-reg" class="btn btn-lg btn-opciones btn-rojo">Volver</button>
+                    </div>
+                </div>
+            </nav>
+            <!-------------------------------------Fin Main Menu------------------------------------------------>            
+        </header>
+
+        <!-----------------------------------Elastic Menu-------------------------------------------->
+        <div id="elastic-menu" class="navigation d-md-none">
+            <div class="navigation__inner">
+                <div class="cerrar-elastic">
+                    <a class="text-white" id="btn_close"><i class="far fa-times-circle"></i></a>
+                </div>
+
+                <div class="content-elastic">
+                    <div class="accordion" id="accordionExample">
+                        <li><a href=""><i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><i class="fas fa-building"></i> Proyectos</a></li>
+                        <div id="collapseOne" class="collapse elastic-submenu" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <ul>
+                                <div class="accordion" id="accordionExample2">
+                                    <li><a data-toggle="collapse" data-target="#collapseOneStgo" aria-expanded="false" aria-controls="collapseOneStgo">En Santiago</a></li>
+                                    <div id="collapseOneStgo" class="collapse elastic-submenu2" aria-labelledby="headingOne" data-parent="#accordionExample2">
+                                        <ul id="elastic-menu-stgo"></ul>
+                                    </div>
+
+                                    <li><a data-toggle="collapse" data-target="#collapseOneReg" aria-expanded="false" aria-controls="collapseOneReg">En Regiones</a></li>
+                                    <div id="collapseOneReg" class="collapse elastic-submenu2" aria-labelledby="headingOne" data-parent="#accordionExample2">
+                                        <ul id="elastic-menu-reg"></ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+
+                        <li>
+                            <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fas fa-handshake"></i> Servicio al Cliente
+                            </a>
+                        </li>
+
+                        <div id="collapseTwo" class="collapse elastic-submenu" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <ul>
+                                <li><a href="/servicio-al-cliente/servicio-post-venta/"><i class="fas fa-comments"></i> Servicio Post-Venta</a></li>
+                                <li><a href="https://avellaneda.agendapro.com/cl"><i class="fas fa-calendar-check"></i> Reserva de Hora Pre-entrega y entrega</a></li>
+                            </ul>
+                        </div>
+
+                        <li><a href="/empresa/">Inmobiliaria Avellaneda</a></li>
+                        <li><a href="/oportunidades/"><i class="fas fa-thumbs-up"></i> Oportunidades</a></li>
+                        <li><a href="/contacto/"><i class="fas fa-envelope"></i> Contacto</a></li>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--
+        ---------------------------------------------------------------------------------------------------
+        -------------------------------------CONTENIDO PRINCIPAL-------------------------------------------
+        ---------------------------------------------------------------------------------------------------
+        -->
+
+        <main>
+            <section class="container-fluid bg-gris-oscuro">
+                <div class="container">
+                    <h1 class="titulo-page text-center m-0 p-3">CONDOMINIO PLAZA BUIN</h1>
+                </div>
+            </section>
+
+            <!-----------------------------------Slider Single Proyectos -------------------------------------------->
+            <section>
+                <div class="slider-estado-proyecto">
+                    <div class="container">
+                        <div class="bloque-estado" style="background: rgba(229,48,45,.7);">NUEVA ETAPA</div>
+                    </div>
+                </div>
+
+                <div class="slider-single-proyectos-top owl-carousel owl-theme">
+                    <div class="item">
+                        <!--Imagen desktop del Slider Single Proyectos-->
+                        <img class="d-none d-md-block" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Banner_web_PB-1.jpg" />
+                        <!--Imagen mobile del Slider Single Proyectos-->
+                        <img class="d-md-none" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Banner_920x710_PB.jpg" />
+                    </div>
+                    <div class="item">
+                        <!--Imagen desktop del Slider Single Proyectos-->
+                        <img class="d-none d-md-block" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Condominio-Plaza-Buin_1920x550.jpg" />
+                        <!--Imagen mobile del Slider Single Proyectos-->
+                        <img class="d-md-none" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Condominio-Plaza-Buin_920x710.jpg" />
+                    </div>
+                    <div class="item">
+                        <!--Imagen desktop del Slider Single Proyectos-->
+                        <img class="d-none d-md-block" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Reina-Sofia_1920x550.jpg" />
+                        <!--Imagen mobile del Slider Single Proyectos-->
+                        <img class="d-md-none" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Reina-Sofia_920x710.jpg" />
+                    </div>
+                    <div class="item">
+                        <!--Imagen desktop del Slider Single Proyectos-->
+                        <img class="d-none d-md-block" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Casa-Reina-Catalina_1920x550.jpg" />
+                        <!--Imagen mobile del Slider Single Proyectos-->
+                        <img class="d-md-none" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Casa-Reina-Catalina_910x710.jpg" />
+                    </div>
+                </div>
+
+                <!--Caption del Slider Single Proyectos-->
+                <div class="slider-caption container-fluid">
+                    <div class="container">
+                        <div class="row pt-4 pb-4">
+                            <div class="col-md-2">
+                                <div class="slider-caption-logo d-none d-md-block">
+                                    <img class="img-fluid rounded-lg" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/LOGO-500X500-1-e1568214714817.jpg" class="d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="slider-caprion-ubicacion">
+                                    <h2 class="titulo-proyecto-slide d-md-none">Título Proyecto</h2>
+                                    <span class="d-none d-md-block">Ubicación:</span>
+                                    <h3><span class="d-md-none">Ubicación -</span> Lugar de ubicacion</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="slider-caption-bloque_rojo">
+                                    Casas de 3 dormitorios + Estar familiar
+                                    <h2>Desde UF 3.958</h2>
+                                    <p><em>*Corresponde a Casa Ibiza N°35 / Actualización de precios Octubre. 2019</em></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+
+            <!----------------------------------- Sección Resumen del Proyecto -------------------------------------------->
+            <section class="text-center bg-gris-claro pt-5 pb-5">
+                <div class="container resumen-proyecto">
+                        Ya Lanzamos NUEVA ETAPA. Si buscas un lugar para vivir junto a tu familia, Condominio Plaza Buin cuenta con acceso restringido y vigilancia 24/7. Además, de contar amplías áreas verdes y juegos infantiles, para disfrutar tranquilo junto a la familia.  Elige entre los 5 tipos de casas que tenemos para ti.
+
+                        <p>*Fuente para calcular dividendo : <a href="https://www.clientebancario.cl/simuladorhipotecario/aplicacion?indice=101.2.1" target="_blank">https://www.clientebancario.cl/simuladorhipotecario/aplicacion?indice=101.2.1</a></p>
+                </div>
+            </section>
+
+            <!----------------------------------- Slider Caracteristicas -------------------------------------------->
+            <section id="caracteristicas" class="mt-5">
+                <div class="container text-center pb-4">
+                    <h2 class="titulos-secciones">CASAS DE 3 DORMITORIOS MÁS ESTAR, EN BUIN</h2>
+                    <h4 class="bajadas-titulos-secciones">NUEVA ETAPA CONDOMINIO CERRADO CON EXTENSAS ÁREAS VERDES Y UBICACIÓN PRIVILEGIADA</h4>
+                </div>
+
+                <div class="slider-single-proyectos-caracteristicas owl-carousel owl-theme">
+                    <div class="item">
+                        <!--Imagen de fondo con desenfoque-->
+                        <div class="w-100 bg-blur-slide" style="background-image:url('https://www.avellaneda.cl/wp-content/uploads/2017/12/1-1-500x229.jpg');"></div>
+                        <div class="container">
+                            <!--Imagen desktop del Slider Caracteristicas Proyectos-->
+                            <img class="d-none d-md-block" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/1-1.jpg" />
+                            <!--Imagen mobile del Slider Caracteristicas Proyectos-->
+                            <img class="d-md-none" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/1-1-500x229.jpg" />
+                            <div class="slider-caption-caracteristicas">
+                                Ubicación con excelente conectividad <br>
+                                Acceso controlado
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!----------------------------------- Tabs Interiores -------------------------------------------->
+            <section id="equipamiento" class="mt-5">
+                <div class="container text-center pb-4">
+                    <h2 class="titulos-secciones">ELIGE ENTRE CINCO MODELOS DE CASAS NUEVAS</h2>
+                    <h4 class="bajadas-titulos-secciones">CASAS AISLADAS CON COCINAS AMOBLADAS CON ENCIMERA, CAMPANA Y HORNO</h4>
+                </div>
+
+                <div class="container">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-equipamientos-tab" data-toggle="tab" href="#nav-equipamientos" role="tab" aria-controls="nav-equipamientos" aria-selected="true">EQUIPAMIENTO</a>
+                            <a class="nav-item nav-link" id="nav-cocina-tab" data-toggle="tab" href="#nav-cocina" role="tab" aria-controls="nav-cocina" aria-selected="false">COCINA</a>
+                            <a class="nav-item nav-link" id="nav-dormitorios-tab" data-toggle="tab" href="#nav-dormitorios" role="tab" aria-controls="nav-dormitorios" aria-selected="false">DORMITORIOS</a>
+                            <a class="nav-item nav-link" id="nav-banos-tab" data-toggle="tab" href="#nav-banos" role="tab" aria-controls="nav-banos" aria-selected="false">BAÑOS</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-equipamientos" role="tabpanel" aria-labelledby="nav-equipamientos-tab">
+
+                            <!------------------------------------Galeria de Imagenes------------------------------------------------->
+                            <div class="galeria-imagenes-tabs owl-carousel owl-theme">
+                                <div class="item" data-hash="1">
+                                    <!--Imagen desktop del Slider Caracteristicas Proyectos-->
+                                    <img class="d-none d-md-block" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Tab-2-1.jpg" />
+                                    <!--Imagen mobile del Slider Caracteristicas Proyectos-->
+                                    <img class="d-md-none" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Tab-2-1-400x400.jpg" />
+                                    <div class="slider-caption-caracteristicas">
+                                        Ubicación con excelente conectividad <br>
+                                        Acceso controlado
+                                    </div>
+                                </div>
+
+                                <div class="item" data-hash="2">
+                                    <!--Imagen desktop del Slider Caracteristicas Proyectos-->
+                                    <img class="d-none d-md-block" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Tab-2-1.jpg" />
+                                    <!--Imagen mobile del Slider Caracteristicas Proyectos-->
+                                    <img class="d-md-none" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Tab-2-1-400x400.jpg" />
+                                    <div class="slider-caption-caracteristicas">
+                                        Ubicación con excelente conectividad <br>
+                                        Acceso controlado
+                                    </div>
+                                </div>
+
+                                <div class="item" data-hash="3">
+                                    <!--Imagen desktop del Slider Caracteristicas Proyectos-->
+                                    <img class="d-none d-md-block" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Tab-2-1.jpg" />
+                                    <!--Imagen mobile del Slider Caracteristicas Proyectos-->
+                                    <img class="d-md-none" src="https://www.avellaneda.cl/wp-content/uploads/2017/12/Tab-2-1-400x400.jpg" />
+                                    <div class="slider-caption-caracteristicas">
+                                        Ubicación con excelente conectividad <br>
+                                        Acceso controlado
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-cocina" role="tabpanel" aria-labelledby="nav-cocina-tab">...</div>
+                        <div class="tab-pane fade" id="nav-dormitorios" role="tabpanel" aria-labelledby="nav-dormitorios-tab">...</div>
+                        <div class="tab-pane fade" id="nav-banos" role="tabpanel" aria-labelledby="nav-banos-tab">...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!----------------------------------- Plantas -------------------------------------------->
+            <section id="plantas" class="mt-5">
+                <div class="container mb-4">
+                    <div class="filter-button-group">
+                        <ul class="nav">
+                            <li class="nav-item active" data-filter="*"><a class="nav-link">Todos</a></li>
+                            <li class="nav-item" data-filter=".1dorm"><a class="nav-link">1 Dorm</a></li>
+                            <li class="nav-item" data-filter=".2dorm"><a class="nav-link">2 Dorm</a></li>
+                            <li class="nav-item" data-filter=".3dorm"><a class="nav-link">3 Dorm</a></li>
+                            <li class="nav-item" data-filter=".4dorm"><a class="nav-link">4 Dorm</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="d-flex justify-content-between plantas">
+                        <div class="item-grid 1dorm">
+                            <div class="planta">
+                                <div class="card">
+                                    <img src="https://www.avellaneda.cl/wp-content/uploads/2018/01/Casa-Josefina-400x267.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa Reina Josefina</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="text-center w-100 m-0">
+                                            <a href="#" class="btn btn-sm btn-av-rojo">VER DETALLE</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-grid 2dorm">
+                            <div class="planta">
+                                <div class="card">
+                                    <img src="https://www.avellaneda.cl/wp-content/uploads/2018/01/Casa-Reina-Isabel-400x267.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa Reina Josefina</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="text-center w-100 m-0">
+                                            <a href="#" class="btn btn-sm btn-av-rojo">VER DETALLE</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-grid 1dorm">
+                            <div class="planta">
+                                <div class="card">
+                                    <img src="https://www.avellaneda.cl/wp-content/uploads/2018/01/Casa-Reina-Sofia-400x267.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa Reina Josefina</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="text-center w-100 m-0">
+                                            <a href="#" class="btn btn-sm btn-av-rojo">VER DETALLE</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-grid 3dorm">
+                            <div class="planta">
+                                <div class="card">
+                                    <img src="https://www.avellaneda.cl/wp-content/uploads/2018/01/Casa-Catalina-400x267.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa Reina Josefina</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="text-center w-100 m-0">
+                                            <a href="#" class="btn btn-sm btn-av-rojo">VER DETALLE</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-grid 3dorm">
+                            <div class="planta">
+                                <div class="card">
+                                    <img src="https://www.avellaneda.cl/wp-content/uploads/2018/01/Casa-Luisa-400x267.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa Reina Josefina</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="text-center w-100 m-0">
+                                            <a href="#" class="btn btn-sm btn-av-rojo">VER DETALLE</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!----------------------------------- Ubicación -------------------------------------------->
+            <section id="ubicacion" class="mt-5">
+                <div class="container text-center pb-4">
+                    <h2 class="titulos-secciones">CONDOMINIO EN VALLE GRANDE CON FULL CONECTIVIDAD</h2>
+                    <h4 class="bajadas-titulos-secciones">Y SERVICIOS A LA MANO</h4>
+                </div>
+            </section>
+
+            <section class="text-center bg-gris-claro pt-5 pb-5">
+                <div class="container resumen-proyecto">
+                    <strong>Valle Grande</strong> es un proyecto único que combina planificación urbana, rescata la vida de barrio y la experiencia de vivir en contacto con la naturaleza. Integra zonas residenciales, de equipamiento, <strong>extensas áreas verdes</strong>&nbsp;y un alto estándar de urbanización.&nbsp;<strong>Una comuna que en los últimos años ha aumentado su plusvalía en más de un 40%</strong>
+                </div>
+            </section>
+
+            <section class="mapa">
+                <img class="w-100" src="https://www.avellaneda.cl/wp-content/uploads/2019/11/mapa-laguna-norte.jpg" />
+
+                <div class="container ubicaciones-proyectos mt-5 mb-5">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <i class="fa fa-bus" aria-hidden="true"></i> <strong class="altas">Transporte</strong>
+                            
+                            <p>
+                                3 líneas de buses interurbanos:<br>
+                                Metro Vespucio Norte.<br> 
+                                Estación Mapocho.<br> 
+                                Terminal San Borja.<br>
+                                También cuenta con colectivos.
+                            </p>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <i class="fa fa-map-signs" aria-hidden="true"></i> <strong class="altas">Accesos</strong>
+                            
+                            <p>
+                                Accesos directos por:<br>
+                                Autopista Vespucio Norte.<br>
+                                Panamericana Norte.<br>
+                                Ruta los Libertadores.
+                            </p>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i> <strong class="altas">Comercio</strong>
+                            
+                            <p>
+                                Lavado de autos.<br>
+                                Restaurantes con delivery al condominio.<br>
+                                Centro de estética, Tabaquería.<br>
+                                Tienda de mascotas y Veterinaria y más.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="info" class="seccion-info-ventas mb-5">
+                <div class="d-flex">
+                    <div class="col bg-rojo p-5">
+                        <div class="sala-ventas">
+                            <h3>SALA DE VENTAS</h3>
+                            
+                            <li><a href="https://goo.gl/maps/md5BG8qmy592" target="_blank"><i class="fas fa-map-marker-alt"></i> Avenida la Montaña Nte. 3650, Lampa.</a></li>
+
+                            <li><a href="tel:+56961570230" class="tooltipster2 tooltipstered"><i class="fas fa-phone"></i> +56 9 61570230</a></li>
+
+                            <li><a href="tel:+56964077458" class="tooltipster2 tooltipstered"><i class="fas fa-phone"></i> +56 9 64077458</a></li>
+
+                            <li><a href="mailto:lagunanorte@avellaneda.cl" class="tooltipster2 tooltipstered"><i class="fas fa-envelope"></i> lagunanorte@avellaneda.cl</a></li>
+
+                            <li><i class="far fa-clock"></i> Lunes a Domingo de 11:00 a 19:00hrs</li>
+
+                            <li class="maps-app">
+                                <a class="d-md-none" href="waze://?ll=-33.3271004,-70.7555281&amp;navigate=yes" target="_new">
+                                    <img src="https://www.avellaneda.cl/wp-content/themes/avellaneda/recursos/img/iconos/waze-blanco.svg" alt="Ver Dirección en Waze">
+                                </a>
+
+                                <a href="http://maps.google.com/maps?daddr=-33.3271004,-70.7555281" target="_new">
+                                    <img src="https://www.avellaneda.cl/wp-content/themes/avellaneda/recursos/img/iconos/googlemaps-blanco.svg" alt="Google Maps">
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="col bg-gris-oscuro p-5">
+                        <div class="formulario-single-proyectos">
+                            <h3>INSCRÍBETE EN LA NUEVA ETAPA</h3>
+                            
+                            <form>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="nombre" placeholder="Nombre" />
+                                        </div>
+                                    </div>
+    
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="email" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="form-row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="apellido" placeholder="Apellido" />
+                                        </div>
+                                    </div>
+    
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="rut" placeholder="Rut" />
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="form-row">
+                                    <div class="col col-6">
+                                        <div class="form-group">
+                                            <label class="sr-only" for="fono">Username</label>
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                <div class="input-group-text">+56</div>
+                                                </div>
+                                                <input class="form-control" type="number" name="fono" placeholder="Teléfono" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col col-6"></div>
+                                </div>
+    
+                                <div class="form-row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="mensaje" placeholder="Mensaje"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="form-row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label class="form-check-av" for="novedades">
+                                                <input id="novedades" class="form-check-input" type="checkbox" name="novedades" value="" />
+                                                <span class="checkmark"></span>
+                                                Deseo recibir información y novedades
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="form-row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <button class="btn btn-av-form-proyectos w-100" type="submit">ENVIAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-fluid landings-section">
+                <div class="container">
+                    <div class="row landing-block">
+                        <div class="col-md-2">
+                            <h3 class="landing-block-titulo">Casas nuevas en venta</h3>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="landing-block-link">                                
+                                <a href="https://www.avellaneda.cl/landing/casas-en-venta-en-valle-grande/">Casas en venta en Valle Grande, </a>
+                                <a href="https://www.avellaneda.cl/landing/casas-en-venta-en-santiago/">Casas en venta en Santiago, </a>
+                                <a href="https://www.avellaneda.cl/landing/casas-venta-lampa/">Casas nuevas en venta en Lampa, </a>
+                                <a href="https://www.avellaneda.cl/landing/casas-en-venta-en-padre-hurtado/">Casas nuevas en venta en Padre Hurtado, </a>
+                                <a href="https://www.avellaneda.cl/landing/casas-venta-buin/">Casas nuevas en venta en Buin, </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row landing-block">
+                        <div class="col-md-2">
+                            <h3 class="landing-block-titulo">Departamentos nuevos en venta</h3>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="landing-block-link">                        
+                                <a href="https://www.avellaneda.cl/landing/departamentos-en-venta-en-vina-del-mar/">Departamentos en venta en Viña del Mar, </a>
+                                <a href="https://www.avellaneda.cl/landing/departamentos-venta-puerto-varas/">Departamentos en venta en Puerto Varas, </a>
+                                <a href="https://www.avellaneda.cl/landing/departamentos-en-venta-en-las-condes/">Departamentos en venta en Las Condes, </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row landing-block">
+                        <div class="col-md-2">
+                            <h3 class="landing-block-titulo">Inversión Inmobiliaria</h3>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="landing-block-link">                        
+                                <a href="https://www.avellaneda.cl/landing/acerca-los-creditos-hipotecarios/">Todo acerca de los Créditos Hipotecarios, </a> 
+                                <a href="https://www.avellaneda.cl/landing/invierte-propiedades-asegura-futuro/">Invierte en Propiedades y asegura tu futuro, </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="mt-5">
+            <div class="container">
+                <div class="d-none d-md-block">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="logo">
+                                <a href="https://www.avellaneda.cl/" class="tooltipster" title="Ir al Inicio"><img src="https://www.avellaneda.cl/wp-content/themes/avellaneda/recursos/img/iconos/logo.svg" alt="Ir al Inicio" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <p>
+                                <a href="https://goo.gl/maps/giB3uX9S9fk" target="_new"><img src="https://www.avellaneda.cl/wp-content/themes/avellaneda/recursos/img/iconos/googlemaps.svg" class="img-responsive icon-svg" alt="Google Maps" style="width:30px;height:30px;"/></a>
+                                <a href="https://goo.gl/maps/giB3uX9S9fk" target="_blank">Av. Santa María 2450, piso 4 Providencia, Santiago, Chile</a> <a href="tel:+56224903200">(56) 2 2490 3200</a>
+                            </p>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="redes-sociales">
+                                <a class="btn btn-rss btn-face rounded-pill" href="https://www.facebook.com/InmobiliariaAvellaneda" title="Síguenos en Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-rss btn-insta rounded-pill" href="https://www.instagram.com/inmobiliariaavellaneda/" title="Síguenos en Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-rss btn-yt rounded-pill" href="https://www.youtube.com/user/AvellanedaVideos" title="Síguenos en YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-md-none text-center">
+                    <div class="direccion-footer-mobile">
+                        Av. Santa María 2450, piso 4<br>Providencia, Santiago, Chile
+                    </div>
+
+                    <hr>
+
+                    <div class="text-center links-ubicacion">
+                        <a href="waze://?ll=-33.4182577,-70.6123402&amp;navigate=yes" target="_new">
+                            <img src="https://www.avellaneda.cl/wp-content/themes/avellaneda/recursos/img/iconos/waze2.svg" alt="Waze">
+                        </a>
+                        <a href="https://goo.gl/maps/giB3uX9S9fk" target="_new">
+                            <img src="https://www.avellaneda.cl/wp-content/themes/avellaneda/recursos/img/iconos/googlemaps.svg" alt="Google Maps">
+                        </a>
+                        <a class="btn btn-av-rojo rounded-pill" href="tel:+56224903200"><i class="fas fa-phone"></i> +56 2 2490 3200</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pie">
+                <div class="container text-center">
+                    <strong>Avellaneda</strong> Todos los derechos reservados. <span class="politica" data-toggle="modal" data-target="#politica">Política de privacidad</span>
+                </div>
+            </div>
+
+            <div class="d-md-none shared-collapse-footer hide-shared-footer">
+                <div class="container">
+                    <h4>CONTACTO</h4>
+                    <div class="d-flex justify-content-between">
+                        <a class="shared-btn-twit" href="https://twitter.com/share?url=https://www.avellaneda.cl/proyectos/condominio-plaza-buin/" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="shared-btn-face" href="http://www.facebook.com/sharer.php?u=https://www.avellaneda.cl/proyectos/condominio-plaza-buin/" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>            
+                        <a class="shared-btn-email" href="mailto:?Subject=Condominio Plaza Buin&amp;Body=https://www.avellaneda.cl/proyectos/condominio-plaza-buin/">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a class="shared-btn-whatsapp" href="whatsapp://send?text=https://www.avellaneda.cl/proyectos/casas-del-rahue/">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-md-none container-fluid fixed-footer">
+                <div class="d-flex justify-content-between">
+                    <a class="shared-btn-footer rounded-circle"><i class="fas fa-share-alt"></i></a>
+
+                    <a class="up-btn-footer rounded-circle" href="#inicio"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </footer>
+        
+
+        <!--JQUERY 3.4.1-->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <!--Popper-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <!--Bootstrap 3.4.1-->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--Owl Carousel -->
+        <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+        <!--Isotope (Libreria para hacer el filtro de las plantas) -->
+        <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+        <!--Scripts -->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

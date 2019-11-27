@@ -1,0 +1,33 @@
+.filter-button-group{
+    width:100%;
+
+    li.nav-item{
+        text-align:center;
+        width:100%;
+        max-width:200px;     
+
+        a.nav-link{
+            cursor:pointer;
+            font-size:14px;
+            text-transform:uppercase;
+            border-bottom:4px solid $color-gris-claro;
+            color:$color-gris-oscuro;
+
+            &:hover{color:$color-negro;}
+        }
+    }
+
+    li.active{
+        a.nav-link{border-bottom:4px solid $color-rojo;}
+    }
+}
+
+.planta{
+    width:100%;
+    max-width:200px;
+    margin:10px;
+    color:$color-gris;
+
+    .card-title{text-transform:uppercase;}
+    .card-text{font-size:12px;}
+}

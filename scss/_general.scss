@@ -49,6 +49,7 @@ h4.bajadas-titulos-secciones{
 
 .bg-rojo{background:$color-rojo;}
 .bg-gris-oscuro{background:$color-gris-oscuro;}
+.bg-gris-claro{background:$color-gris-claro;}
 
 
 /*-----Efectos-----*/
@@ -57,4 +58,23 @@ h4.bajadas-titulos-secciones{
     filter: blur(8px);
     min-height: 360px;
     position: absolute;
+}
+
+.bg-blur-slide{
+    top: 0;
+    filter: blur(15px);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 445px;
+    z-index:-1;
+}
+
+.ubicaciones-proyectos{
+    font-size:12px;
+    color:#6f7071;
+
+    .altas{text-transform: uppercase;}
+
+    p{margin-top:10px;}
 }

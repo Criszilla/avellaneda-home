@@ -44,12 +44,32 @@ h4.bajadas-titulos-secciones {
 .bg-gris-oscuro {
   background: #303438; }
 
+.bg-gris-claro {
+  background: #ddd; }
+
 /*-----Efectos-----*/
 .bg-blur {
   -webkit-filter: blur(8px);
   filter: blur(8px);
   min-height: 360px;
   position: absolute; }
+
+.bg-blur-slide {
+  top: 0;
+  filter: blur(15px);
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 445px;
+  z-index: -1; }
+
+.ubicaciones-proyectos {
+  font-size: 12px;
+  color: #6f7071; }
+  .ubicaciones-proyectos .altas {
+    text-transform: uppercase; }
+  .ubicaciones-proyectos p {
+    margin-top: 10px; }
 
 /*
 -----------------------------------
@@ -80,6 +100,18 @@ h4.bajadas-titulos-secciones {
     .btn-av-negro:hover {
       background: #565454;
       color: #ffffff; }
+
+.btn-av-form-proyectos {
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 0px 10px 0px;
+  background: #959698;
+  color: #b5b7b8; }
+  .btn-av-form-proyectos:hover {
+    background: #87898a;
+    color: #b5b7b8; }
 
 /*
 --------------------------------------
@@ -166,7 +198,7 @@ h4.bajadas-titulos-secciones {
 .scroll-menu {
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   background: #ffffff;
   -webkit-transition: all .3s;
   transition: all .3s; }
@@ -388,7 +420,8 @@ a.nav-link-parent {
   color: #ffffff; }
   .slider-caption .slider-caption-logo {
     position: absolute;
-    margin-top: -50px; }
+    margin-top: -50px;
+    z-index: 1; }
   .slider-caption .slider-caprion-ubicacion span {
     font-size: 16px; }
     @media screen and (min-width: 768px) {
@@ -416,6 +449,53 @@ a.nav-link-parent {
         padding: 20px;
         text-align: right; } }
 
+.slider-estado-proyecto {
+  width: 100%;
+  position: absolute;
+  z-index: 2; }
+  .slider-estado-proyecto .container .bloque-estado {
+    width: 120px;
+    min-width: 200px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 7px 39px 0 rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0 7px 39px 0 rgba(0, 0, 0, 0.43);
+    box-shadow: 0 7px 39px 0 rgba(0, 0, 0, 0.43); }
+    @media screen and (min-width: 768px) {
+      .slider-estado-proyecto .container .bloque-estado {
+        float: right; } }
+
+.slider-caption-caracteristicas {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  background: rgba(48, 52, 56, 0.8);
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 30px; }
+
+.nav-tabs {
+  border-bottom: 6px solid #e5302d; }
+  .nav-tabs .active {
+    background: #e5302d !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important; }
+  .nav-tabs .nav-item:hover {
+    border: 1px solid transparent;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background: #ddd;
+    color: #303438; }
+
 /*
 -----------------------------------
 ---------PAGINA DE INICIO----------
@@ -439,6 +519,127 @@ a.nav-link-parent {
   padding: 20px; }
   .bloque-exp-av h3 {
     font-size: 18px; }
+
+.filter-button-group {
+  width: 100%; }
+  .filter-button-group li.nav-item {
+    text-align: center;
+    width: 100%;
+    max-width: 200px; }
+    .filter-button-group li.nav-item a.nav-link {
+      cursor: pointer;
+      font-size: 14px;
+      text-transform: uppercase;
+      border-bottom: 4px solid #ddd;
+      color: #303438; }
+      .filter-button-group li.nav-item a.nav-link:hover {
+        color: #1F232A; }
+  .filter-button-group li.active a.nav-link {
+    border-bottom: 4px solid #e5302d; }
+
+.planta {
+  width: 100%;
+  max-width: 200px;
+  margin: 10px;
+  color: #6f7071; }
+  .planta .card-title {
+    text-transform: uppercase; }
+  .planta .card-text {
+    font-size: 12px; }
+
+.seccion-info-ventas h3 {
+  font-size: 26px;
+  margin-bottom: 20px; }
+
+.sala-ventas {
+  color: #ffffff;
+  font-size: 12px;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto; }
+  .sala-ventas li {
+    list-style: none;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #f74f4f; }
+  .sala-ventas li:last-child {
+    border-bottom: 1px solid transparent; }
+  .sala-ventas a {
+    color: #ffffff; }
+  .sala-ventas .maps-app img {
+    width: 100%;
+    max-width: 30px; }
+
+.formulario-single-proyectos {
+  color: #ffffff;
+  font-size: 12px;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  /* Estilo para la casilla de Check */
+  /* Create a custom checkbox */ }
+  .formulario-single-proyectos .form-control {
+    background: #3e4246;
+    border: none;
+    font-size: 14px; }
+    .formulario-single-proyectos .form-control::placeholder {
+      color: #999; }
+  .formulario-single-proyectos .input-group-text {
+    background: #2b2e31;
+    color: #999;
+    border: none; }
+  .formulario-single-proyectos .form-check-av {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    /*margin-bottom: 12px;*/
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* Hide the browser's default checkbox */
+    /* On mouse-over, add a grey background color */
+    /* When the checkbox is checked, add a blue background */
+    /* Show the checkmark when checked */
+    /* Style the checkmark/indicator */ }
+    .formulario-single-proyectos .form-check-av input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0; }
+    .formulario-single-proyectos .form-check-av:hover input ~ .checkmark {
+      background-color: #d7dcde; }
+    .formulario-single-proyectos .form-check-av input:checked ~ .checkmark {
+      background-color: #e5302d; }
+    .formulario-single-proyectos .form-check-av input:checked ~ .checkmark:after {
+      display: block; }
+    .formulario-single-proyectos .form-check-av .checkmark:after {
+      left: 7px;
+      top: 5px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg); }
+  .formulario-single-proyectos .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #999;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /* Create the checkmark/indicator (hidden when not checked) */ }
+    .formulario-single-proyectos .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none; }
 
 /*
 -----------------------------------
